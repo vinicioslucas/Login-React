@@ -11,7 +11,7 @@ export function Register() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const [createUserWithEmailAndPassword, user, loading, error] = 
+  const [createUserWithEmailAndPassword, user, loading] = 
       useCreateUserWithEmailAndPassword(auth);
 
       function HandleSignOut(e){
